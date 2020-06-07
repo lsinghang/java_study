@@ -21,4 +21,11 @@ public class Cat {
     public void introduce() {
         System.out.println("我的名字：" + name + ' ' + "今年" + age);
     }
+
+    public String getName() {
+        return  "我是:" + this.name;
+    }
+    public void setName(String name) {
+        this.name = name;
+    }
 }
