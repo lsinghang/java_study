@@ -7,6 +7,11 @@ public class firstExtends {
 
     public firstExtends() {}
 
+    public firstExtends(String name) {
+        System.out.println("父类一参构造方法"+ name);
+    }
+
+
     public String getName() {
         return name;
     }
@@ -31,7 +36,8 @@ public class firstExtends {
         this.species = species;
     }
 
-    public void eat() {
-        System.out.println(this.species + "失业");
+    public String eat(int num) {
+        System.out.println(this.species + "失业" + num + "天");
+        return "这几天" + num;
     }
 }

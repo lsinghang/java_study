@@ -4,7 +4,6 @@ public class childExtends extends firstExtends {
     private double weight;
 
     public childExtends() {
-
     }
 
     public double getWeight() {
