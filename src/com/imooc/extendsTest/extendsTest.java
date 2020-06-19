@@ -13,8 +13,8 @@ public class extendsTest {
         two.setName("two");
         two.setSpecies("断尾");
 //        two.sleep();
-        int abc = two.eat();
-        System.out.println(abc);
+//        abc = two.eat();
+//        System.out.println(abc);
 //        two.privateFun();
     }
 }
