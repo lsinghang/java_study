@@ -22,3 +22,4 @@ public class StringBuilderDemo {
     System.out.println(str.substring(0, 2));
   }
 }
+
