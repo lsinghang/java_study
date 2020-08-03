@@ -178,6 +178,10 @@ public class HashSetDemo {
     public int hashCode() {
       return Objects.hash(getName(), getMonth(), getSpecied());
     }
+
+    public double getPrice() {
+      return 0;
+    }
   }
 }
 
